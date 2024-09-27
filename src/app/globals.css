@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 body{
-  background-image: url(https://media.istockphoto.com/id/1428792471/video/questions-marks-animated-4k-chroma-key-loopable.jpg?s=640x640&k=20&c=NVrrUbjIsROPtezyXovnQA96E7p5i9MV_vvdZDSOVnA=);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwhZL511shueHqu5wGtagQJKPH6vOR9WsuYg&s);
   justify-content: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,7 +26,7 @@ body{
    flex-direction: column; 
   background-color: white;
   border-radius: 15px;
-   box-shadow: 2px 2px 10px 1px rgb(102, 3, 102);
+   box-shadow: -30px 30px 10px 1px rgb(255, 255, 255);
   box-shadow: 2px 2px 10px 1px #333;  
    overflow: hidden; 
    padding: 10px; 
@@ -85,7 +85,7 @@ body{
   box-shadow: 3px 3px 4px 1px rgb(78, 69, 78);
 }
 .option-btn:hover{
-  background-color: rgba(184, 182, 182, 0.425);
+  background-color: rgba(161, 208, 255, 0.877);
   color:white;
 }
 #next-button{
@@ -95,7 +95,7 @@ body{
   background-color: rgb(0, 55, 110);
   color:white;
   border-radius: 5px;
-  box-shadow: 3px 3px 2px 1px rgb(127, 109, 109);
+  box-shadow: 3px 3px 2px 1px rgb(175, 175, 175);
   font-size:large;
   font-weight: bold;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -128,4 +128,11 @@ h1 {
   text-align: center;
   font-weight: bold;
   color:rgb(0, 55, 110) ;
+  opacity: 0.5;
+}
+#canvas {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
 }
